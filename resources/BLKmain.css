@@ -30,7 +30,8 @@ v1.0
   .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
   .wrapper-2NJDcI,
   .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active,
-  .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+  .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4,
+  .search .search-bar {
     background-color: var(--main-bg-color) !important;
   }
 
@@ -51,7 +52,8 @@ v1.0
   }
 
   /* ACCENT COLOR */
-  .unread-1xRYoj {
+  .unread-1xRYoj,
+  .dnd-1_xrcq {
     background-color: var(--accent-color) !important;
   }
 
@@ -60,6 +62,10 @@ v1.0
     background-color: var(--white-bg-color) !important;
   }
 
+  /* YELLOW */
+  .idle-3DEnRT {
+    background-color: var(--yellow-idle) !important;
+  }
 /* TEXT COLORS */
 
   /* BLACK */
@@ -78,7 +84,8 @@ v1.0
 .menu-Sp6bN1,
 .wrapper-35wsBm,
 .button-38aScr,
-.member-3W1lQa {
+.member-3W1lQa,
+.search .search-bar {
   border-radius: 12px;
 }
 
