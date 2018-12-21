@@ -5,3 +5,124 @@ GitHub Repository: https://github.com/fluentbyte/BLKdiscord
 v1.0
 
 */
+
+:root {
+    --main-bg-color: #131313; /* Dark Grey */
+    --second-bg-color: #000000; /* Black */
+    --white-bg-color: #ffffff; /* White */
+    --accent-color: #ff0046; /* Pink */
+    --black-text-color: #000000; /* Black */
+    --white-text-color: #ffffff; /* White */
+    --spotify-color: #45d622; /* Spotify Color */
+    --yellow-idle: #ffd100; /* Yellow Color for Idle Status */
+    --main-text-color: #ffffff; /* White */
+    --second-text-color: #000000; /* Black */
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* Background Colors */
+
+  /* MAIN BACKGROUND COLOR */
+  .messagesWrapper-3lZDfY,
+  .guildsWrapper-5TJh6A,
+  .inner-zqa7da,
+  .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
+  .wrapper-2NJDcI,
+  .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active,
+  .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+    background-color: var(--main-bg-color) !important;
+  }
+
+  /* SECOND BACKGROUND COLOR */
+  .appMount-3VJmYg,
+  .channels-Ie2l6A,
+  .container-PNkimc,
+  .title-3qD0b-,
+  .chat-3bRxxu, .chat-3bRxxu form, .content-yTz4x3,
+  .members-1998pB,
+  .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb,
+  .container-1UB9sr,
+  .typing-2GQL18,
+  .wrapper-35wsBm,
+  .container-2x5lvQ header,
+  .container-2x5lvQ section{
+    background-color: var(--second-bg-color) !important;
+  }
+
+  /* ACCENT COLOR */
+  .unread-1xRYoj {
+    background-color: var(--accent-color) !important;
+  }
+
+  /* WHITE */
+  .menu-Sp6bN1 {
+    background-color: var(--white-bg-color) !important;
+  }
+
+/* TEXT COLORS */
+
+  /* BLACK */
+  .item-1GzJrl {
+    color: var(--black-text-color) !important;
+  }
+
+  /* WHITE */
+  .wrapper-2NJDcI {
+    color: var(--white-text-color) !important;
+  }
+
+/* Individual changes */
+
+.innerNoAutocomplete-1WpcVO,
+.menu-Sp6bN1,
+.wrapper-35wsBm,
+.button-38aScr,
+.member-3W1lQa {
+  border-radius: 12px;
+}
+
+.theme-dark .container-2Thooq, .theme-light .container-2Thooq {
+  background: none;
+}
+
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+  background-color: #4f545c99;
+}
+
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
+  border-color: var(--main-bg-color);
+}
+
+.container-1UB9sr {
+  border-bottom: 1px solid var(--main-bg-color);
+}
+
+.item-1GzJrl:hover {
+  background: linear-gradient(90deg,rgb(220, 220, 220) 70%,#ffffff) !important;
+}
+
+.member-3W1lQa:hover .content-OzHfo4 {
+  background: linear-gradient(90deg,var(--main-bg-color) 70%,var(--second-bg-color)) !important;
+}
+
+.wrapper-35wsBm {
+  border-color: var(--accent-color);
+}
+
+.isMentioned-N-h9aa {
+  background-color: #ff004614;
+}
+
+.avatarSpeaking-1wJCNq {
+  box-shadow: 0 0 0 2px var(--accent-color), inset 0 0 0 1.5px #000000
+}
+
+.popout-3sVMXz header {
+  border-radius: 12px 12px 0 0;
+}
+
+.container-2x5lvQ section {
+  border-radius: 0 0 12px 12px;
+}
