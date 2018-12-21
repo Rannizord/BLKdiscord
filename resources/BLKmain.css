@@ -31,7 +31,8 @@ v1.0
   .wrapper-2NJDcI,
   .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active,
   .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4,
-  .search .search-bar {
+  .search .search-bar,
+  .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
     background-color: var(--main-bg-color) !important;
   }
 
@@ -47,7 +48,9 @@ v1.0
   .typing-2GQL18,
   .wrapper-35wsBm,
   .container-2x5lvQ header,
-  .container-2x5lvQ section{
+  .container-2x5lvQ section,
+  .theme-dark .headerNormal-T_seeN,
+  .quickMessage-1yeL4E {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -85,7 +88,9 @@ v1.0
 .wrapper-35wsBm,
 .button-38aScr,
 .member-3W1lQa,
-.search .search-bar {
+.search .search-bar,
+.userPopout-3XzG_A,
+.quickMessage-2XpSaN {
   border-radius: 12px;
 }
 
@@ -132,4 +137,8 @@ v1.0
 
 .container-2x5lvQ section {
   border-radius: 0 0 12px 12px;
+}
+
+.quickMessage-1yeL4E {
+  border-color: var(--second-bg-color);
 }
