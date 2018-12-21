@@ -56,7 +56,8 @@ v1.0
 
   /* ACCENT COLOR */
   .unread-1xRYoj,
-  .dnd-1_xrcq {
+  .dnd-1_xrcq,
+  .headerPlaying-j0WQBV {
     background-color: var(--accent-color) !important;
   }
 
@@ -69,6 +70,12 @@ v1.0
   .idle-3DEnRT {
     background-color: var(--yellow-idle) !important;
   }
+
+  /* GREEN */
+  .headerSpotify-zpWxgT {
+    background-color: var(--spotify-color) !important;
+  }
+
 /* TEXT COLORS */
 
   /* BLACK */
@@ -120,11 +127,15 @@ v1.0
 }
 
 .wrapper-35wsBm {
-  border-color: var(--accent-color);
+  border-color: var(--accent-color) !important;
 }
 
-.isMentioned-N-h9aa {
-  background-color: #ff004614;
+.isMentioned-N-h9aa, .isMentionedCozy-3isp7y:after {
+  background-color: #ff004614 !important;
+}
+
+.isMentionedCozy-3isp7y:after {
+    border-left: 4px solid var(--accent-color);
 }
 
 .avatarSpeaking-1wJCNq {
@@ -140,5 +151,9 @@ v1.0
 }
 
 .quickMessage-1yeL4E {
-  border-color: var(--second-bg-color);
+  border-color: var(--second-bg-color) !important;
+}
+
+.userPopout-3XzG_A {
+  box-shadow: 0 2px 10px 0 rgb(0, 0, 0), 0 0 0 1px rgb(0, 0, 0) !important;
 }
