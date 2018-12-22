@@ -204,7 +204,8 @@ v1.0
 
   /* GREEN */
   .lookOutlined-3sRXeN.colorGreen-,
-  .lookOutlined-3sRXeN.colorGreen-29iAKY {
+  .lookOutlined-3sRXeN.colorGreen-29iAKY,
+  .attachButtonPlay-ZnFdQr {
     color: var(--spotify-color) !important;
   }
 
@@ -384,6 +385,11 @@ v1.0
 
 .attachPopoutIconForeground-OohRrL{
     fill: var(--accent-color) !important;
+}
+
+.attachButtonPlus-rUdX-B {
+    fill: var(--white-bg-color) !important;
+    opacity: 100 !important;
 }
 
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
