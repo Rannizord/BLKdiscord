@@ -44,7 +44,9 @@ v1.0
   .applicationStore-1pNvnv,
   .tileMedia-1q3guD, .tileMedia-24cT6_,
   .footer-1FPmkC,
-  .inviteRow-2L02ae:hover {
+  .inviteRow-2L02ae:hover,
+  .header-1RC2Wb,
+  .news-2GDtLJ {
     background-color: var(--main-bg-color) !important;
   }
 
@@ -82,7 +84,14 @@ v1.0
   .search-results-wrap,
   .search-results-wrap .search-header,
   .modal-3HD5ck,
-  .item-1Yvehc:hover {
+  .item-1Yvehc:hover,
+  .contentRegion-3nDuYy,
+  .separator-gCa7yv,
+  .side-8zPYf6 .itemSelected-1qLhcL,
+  .activityFeed-28jde9,
+  .article-3kb3qm,
+  .carousel-2WxMes,
+  .card-7JP0BX {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -96,7 +105,9 @@ v1.0
   #friends .tab-bar .tab-bar-item.tab-bar-item-primary,
   .wrapper-232cHJ,
   .lookFilled-1Gx00P.colorBrand-3pXr91,
-  .iconBadge-2dji3k {
+  .iconBadge-2dji3k,
+  .side-8zPYf6 .itemDefault-3Jdr52:hover, .side-8zPYf6 .itemHover-EnbcjT:hover,
+  .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover{
     background-color: var(--accent-color) !important;
   }
 
@@ -107,7 +118,10 @@ v1.0
   .arrow-1QsYio,
   .container-3cGP6G,
   .searchAnswer-3Dz2-q, .searchFilter-2ESiM3,
-  .contextMenu-HLZMGh {
+  .contextMenu-HLZMGh,
+  .sidebarRegion-VFTUkN,
+  .dockItem-2kQDqg:hover,
+  .body-SKIE6r {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -137,7 +151,10 @@ v1.0
   .arrow-1QsYio,
   .item-2J1YMK,
   .searchAnswer-3Dz2-q, .searchFilter-2ESiM3,
-  .item-1Yvehc {
+  .item-1Yvehc,
+  .itemDefault-3Jdr52, .itemHover-EnbcjT,
+  .discriminator-pIKHPn, .playTime-1laRtO,
+  .tag-10JqWu {
     color: var(--black-text-color) !important;
   }
 
@@ -147,7 +164,9 @@ v1.0
   .lookFilled-1Gx00P.colorPrimary-3b3xI6,
   .input-cIJ7To,
   .circle-1nK_79,
-  .purchaseUnitOperatingSystem-cnbJPz {
+  .purchaseUnitOperatingSystem-cnbJPz,
+  .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover,
+  .card-7JP0BX {
     color: var(--white-text-color) !important;
   }
 
@@ -155,7 +174,10 @@ v1.0
   .announcingNitro-3Ptg6m,
   .description-2Ifi6N strong, .username-2gp_Xw,
   .item-1Yvehc.danger-2dXSTE:hover,
-  .item-1Yvehc.danger-2dXSTE {
+  .item-1Yvehc.danger-2dXSTE,
+  .header-2RyJ0Y,
+  .gameName-wzJptK,
+  .sectionTitle-1snBOS {
     color: var(--accent-color) !important;
   }
 
@@ -196,7 +218,12 @@ v1.0
 .modal-3HD5ck,
 .contextMenu-HLZMGh,
 .item-1Yvehc,
-.inviteRow-2L02ae {
+.inviteRow-2L02ae,
+.side-8zPYf6 .item-PXvHYJ,
+.article-3kb3qm,
+.exclusive-3zP8if,
+.card-7JP0BX,
+.news-2GDtLJ {
   border-radius: 12px !important;
 }
 
@@ -319,4 +346,12 @@ v1.0
 
 .description-3rB3Rp {
   background: linear-gradient(180deg,transparent,var(--second-bg-color) 45%,var(--second-bg-color)) !important;
+}
+
+.exclusive-3zP8if {
+  background: linear-gradient(270deg,var(--accent-color),#738ef5) !important;
+}
+
+.paginationItem-2lUq0s:after{
+  background: linear-gradient(270deg,transparent 0,var(--main-bg-color)) !important;
 }
