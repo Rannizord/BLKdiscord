@@ -91,7 +91,9 @@ v1.0
   .activityFeed-28jde9,
   .article-3kb3qm,
   .carousel-2WxMes,
-  .card-7JP0BX {
+  .card-7JP0BX,
+  .headerButtonColor-G7_f-V,
+  .guildIconEmptyBackground-14tfYf {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -107,7 +109,8 @@ v1.0
   .lookFilled-1Gx00P.colorBrand-3pXr91,
   .iconBadge-2dji3k,
   .side-8zPYf6 .itemDefault-3Jdr52:hover, .side-8zPYf6 .itemHover-EnbcjT:hover,
-  .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover{
+  .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover,
+  .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
     background-color: var(--accent-color) !important;
   }
 
@@ -154,7 +157,8 @@ v1.0
   .item-1Yvehc,
   .itemDefault-3Jdr52, .itemHover-EnbcjT,
   .discriminator-pIKHPn, .playTime-1laRtO,
-  .tag-10JqWu {
+  .tag-10JqWu,
+  .channelName-2rTyk5 {
     color: var(--black-text-color) !important;
   }
 
@@ -166,7 +170,9 @@ v1.0
   .circle-1nK_79,
   .purchaseUnitOperatingSystem-cnbJPz,
   .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover,
-  .card-7JP0BX {
+  .card-7JP0BX,
+  .item-1Yvehc:hover,
+  .guildIconEmptyIcon-rSyLPf {
     color: var(--white-text-color) !important;
   }
 
