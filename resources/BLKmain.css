@@ -41,7 +41,8 @@ v1.0
   .libraryFilterInput-3JzqZD,
   .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL),
   .input-cIJ7To,
-  .applicationStore-1pNvnv {
+  .applicationStore-1pNvnv,
+  .tileMedia-1q3guD, .tileMedia-24cT6_ {
     background-color: var(--main-bg-color) !important;
   }
 
@@ -94,7 +95,8 @@ v1.0
   /* WHITE */
   .menu-Sp6bN1,
   .guild-1EfMGQ.unread-qLkInr:before,
-  .popout-2xBvMR {
+  .popout-2xBvMR,
+  .arrow-1QsYio {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -119,7 +121,9 @@ v1.0
   #friends .tab-bar .tab-bar-item.selected,
   .topPill-30KHOu .itemSelected-1qLhcL,
   .smallHeader-2h-9-U,
-  .text-1Z3P6i {
+  .text-1Z3P6i,
+  .description-2Ifi6N,
+  .arrow-1QsYio {
     color: var(--black-text-color) !important;
   }
 
@@ -134,7 +138,8 @@ v1.0
   }
 
   /* ACCENT COLOR */
-  .announcingNitro-3Ptg6m {
+  .announcingNitro-3Ptg6m,
+  .description-2Ifi6N strong, .username-2gp_Xw {
     color: var(--accent-color) !important;
   }
 
@@ -162,7 +167,9 @@ v1.0
 .topPill-30KHOu .item-PXvHYJ,
 .input-cIJ7To,
 .applicationTile-1Goy1W,
-.popout-2xBvMR {
+.popout-2xBvMR,
+.tileMedia-1q3guD,
+.premium-39U29H {
   border-radius: 12px !important;
 }
 
@@ -222,7 +229,8 @@ v1.0
 
 .quickMessage-1yeL4E,
 .status-2s6iDp,
-.member-3W1lQa.popout-open .content-OzHfo4 .status-2s6iDp, .member-3W1lQa.popout-open:hover .content-OzHfo4 .status-2s6iDp {
+.member-3W1lQa.popout-open .content-OzHfo4 .status-2s6iDp, .member-3W1lQa.popout-open:hover .content-OzHfo4 .status-2s6iDp,
+.popoutSocialInfo-1qhqSY {
   border-color: var(--second-bg-color) !important;
 }
 
@@ -252,11 +260,17 @@ v1.0
   border-color: var(--white-bg-color) !important;
 }
 
-/* STORE: PREMIER AT DISCORD SIGN */
-.tag-HanR-9 {
+/* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
+.tag-HanR-9,
+.premium-39U29H {
   background: linear-gradient(90deg,var(--accent-color),var(--main-bg-color)) !important;
 }
 
-.tag-HanR-9:before {
+.tag-HanR-9:before,
+.premium-39U29H:before {
   background-image: none !important;
+}
+
+.description-3rB3Rp {
+  background: linear-gradient(180deg,transparent,var(--second-bg-color) 45%,var(--second-bg-color)) !important;
 }
