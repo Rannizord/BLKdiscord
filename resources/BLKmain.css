@@ -55,7 +55,8 @@ v1.0
   .container-2lgZY8,
   .body-3ND3kc,
   .invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV,
-  .container-2Thooq {
+  .container-2Thooq,
+  .guildInner-3DSoA4, {
     background-color: var(--second-bg-color) !important;
   }
 
