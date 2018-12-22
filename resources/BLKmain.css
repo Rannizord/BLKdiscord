@@ -145,7 +145,8 @@ v1.0
   /* GREEN */
   .headerSpotify-zpWxgT,
   .lookFilled-1Gx00P.colorGreen-29iAKY,
-  .online-2S838R {
+  .online-2S838R,
+  .topSectionSpotify-1lI0-P {
     background-color: var(--spotify-color) !important;
   }
 
