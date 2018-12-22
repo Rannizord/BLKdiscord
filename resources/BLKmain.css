@@ -98,7 +98,8 @@ v1.0
   .headerButtonColor-G7_f-V,
   .guildIconEmptyBackground-14tfYf,
   .size-3rFEHg:after,
-  .size-3rFEHg:active:after {
+  .size-3rFEHg:active:after,
+  .attachPopoutRow-KrE-f6:hover {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -133,7 +134,8 @@ v1.0
   .dockItem-2kQDqg:hover,
   .body-SKIE6r,
   .themeDefault-24hCdX.valueChecked-m-4IJZ,
-  .progress-1IcQ3A {
+  .progress-1IcQ3A,
+  .attachPopout-1n-ZKM {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -168,7 +170,8 @@ v1.0
   .itemDefault-3Jdr52, .itemHover-EnbcjT,
   .discriminator-pIKHPn, .playTime-1laRtO,
   .tag-10JqWu,
-  .channelName-2rTyk5 {
+  .channelName-2rTyk5,
+  .attachPopoutRowText-1tIocA {
     color: var(--black-text-color) !important;
   }
 
@@ -182,7 +185,8 @@ v1.0
   .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover,
   .card-7JP0BX,
   .item-1Yvehc:hover,
-  .guildIconEmptyIcon-rSyLPf {
+  .guildIconEmptyIcon-rSyLPf,
+  .attachPopoutRowText-1tIocA:hover {
     color: var(--white-text-color) !important;
   }
 
@@ -244,7 +248,9 @@ v1.0
 .card-3Qj_Yx,
 .item-26Dhrx,
 .box-mmYMsp,
-.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+.attachPopout-1n-ZKM,
+.attachPopoutRow-KrE-f6 {
   border-radius: 12px !important;
 }
 
@@ -373,6 +379,10 @@ v1.0
 .theme-dark .checkbox-1ix_J3[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] polyline[stroke] {
      stroke: var(--white-bg-color);
      stroke-width: 2;
+}
+
+.attachPopoutIconForeground-OohRrL{
+    fill: var(--accent-color) !important;
 }
 
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
