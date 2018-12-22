@@ -50,19 +50,23 @@ v1.0
   .container-2x5lvQ header,
   .container-2x5lvQ section,
   .theme-dark .headerNormal-T_seeN,
-  .quickMessage-1yeL4E {
+  .quickMessage-1yeL4E,
+  .container-2lgZY8,
+  .body-3ND3kc {
     background-color: var(--second-bg-color) !important;
   }
 
   /* ACCENT COLOR */
   .unread-1xRYoj,
   .dnd-1_xrcq,
-  .headerPlaying-j0WQBV {
+  .headerPlaying-j0WQBV,
+  .topSectionPlaying-1J5E4n {
     background-color: var(--accent-color) !important;
   }
 
   /* WHITE */
-  .menu-Sp6bN1 {
+  .menu-Sp6bN1,
+  .guild-1EfMGQ.unread-qLkInr:before {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -97,7 +101,11 @@ v1.0
 .member-3W1lQa,
 .search .search-bar,
 .userPopout-3XzG_A,
-.quickMessage-2XpSaN {
+.quickMessage-2XpSaN,
+.content-20Aix8,
+.guild-1EfMGQ.selected-ML3OIq:before,
+.connectedAccount-36nQx7,
+.root-SR8cQa {
   border-radius: 12px;
 }
 
@@ -156,4 +164,13 @@ v1.0
 
 .userPopout-3XzG_A {
   box-shadow: 0 2px 10px 0 rgb(0, 0, 0), 0 0 0 1px rgb(0, 0, 0) !important;
+}
+
+.guild-1EfMGQ.selected-ML3OIq:before {
+  height: 30px;
+  margin-top: -15px;
+}
+
+.theme-dark .connectedAccount-36nQx7, .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx {
+  border-color: var(--main-bg-color) !important;
 }
