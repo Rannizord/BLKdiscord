@@ -75,7 +75,8 @@ v1.0
   .root-1BQpZw,
   .applicationTile-1Goy1W,
   .applicationTile-1Goy1W:hover,
-  .iconCircle-1dlYo0 {
+  .iconCircle-1dlYo0,
+  .autocomplete-1vrmpx {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -96,7 +97,8 @@ v1.0
   .menu-Sp6bN1,
   .guild-1EfMGQ.unread-qLkInr:before,
   .popout-2xBvMR,
-  .arrow-1QsYio {
+  .arrow-1QsYio,
+  .container-3cGP6G {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -123,7 +125,8 @@ v1.0
   .smallHeader-2h-9-U,
   .text-1Z3P6i,
   .description-2Ifi6N,
-  .arrow-1QsYio {
+  .arrow-1QsYio,
+  .item-2J1YMK {
     color: var(--black-text-color) !important;
   }
 
@@ -169,7 +172,9 @@ v1.0
 .applicationTile-1Goy1W,
 .popout-2xBvMR,
 .tileMedia-1q3guD,
-.premium-39U29H {
+.premium-39U29H,
+.container-3cGP6G,
+.selector-2IcQBU {
   border-radius: 12px !important;
 }
 
@@ -178,7 +183,8 @@ v1.0
 }
 
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM,
-.channel-2QD9_O.selected-1HYmZZ a {
+.channel-2QD9_O.selected-1HYmZZ a,
+.selectorSelected-1_M1WV {
   background-color: #4f545c99;
 }
 
@@ -219,7 +225,8 @@ v1.0
   box-shadow: 0 0 0 2px var(--accent-color), inset 0 0 0 1.5px #000000
 }
 
-.popout-3sVMXz header {
+.popout-3sVMXz header,
+.autocomplete-1vrmpx {
   border-radius: 12px 12px 0 0;
 }
 
