@@ -54,7 +54,8 @@ v1.0
   .quickMessage-1yeL4E,
   .container-2lgZY8,
   .body-3ND3kc,
-  .invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV {
+  .invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV,
+  .container-2Thooq {
     background-color: var(--second-bg-color) !important;
   }
 
