@@ -76,7 +76,9 @@ v1.0
   .applicationTile-1Goy1W,
   .applicationTile-1Goy1W:hover,
   .iconCircle-1dlYo0,
-  .autocomplete-1vrmpx {
+  .autocomplete-1vrmpx,
+  .search-results-wrap,
+  .search-results-wrap .search-header {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -89,7 +91,8 @@ v1.0
   .layers-3iHuyZ,
   #friends .tab-bar .tab-bar-item.tab-bar-item-primary,
   .wrapper-232cHJ,
-  .lookFilled-1Gx00P.colorBrand-3pXr91 {
+  .lookFilled-1Gx00P.colorBrand-3pXr91,
+  .iconBadge-2dji3k {
     background-color: var(--accent-color) !important;
   }
 
@@ -98,7 +101,8 @@ v1.0
   .guild-1EfMGQ.unread-qLkInr:before,
   .popout-2xBvMR,
   .arrow-1QsYio,
-  .container-3cGP6G {
+  .container-3cGP6G,
+  .searchAnswer-3Dz2-q, .searchFilter-2ESiM3 {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -126,7 +130,8 @@ v1.0
   .text-1Z3P6i,
   .description-2Ifi6N,
   .arrow-1QsYio,
-  .item-2J1YMK {
+  .item-2J1YMK,
+  .searchAnswer-3Dz2-q, .searchFilter-2ESiM3 {
     color: var(--black-text-color) !important;
   }
 
@@ -265,6 +270,15 @@ v1.0
 
 .channel-2QD9_O:hover .status {
   border-color: var(--white-bg-color) !important;
+}
+
+.newMessagesBar-mujexs {
+  background-color: #ff0046b5 !important;
+  border: 0 0 12px 12px !important;
+}
+
+.searchFilter-2ESiM3 {
+    border-radius: 12px 0 0 12px !important;
 }
 
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
