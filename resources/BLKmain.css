@@ -78,7 +78,9 @@ v1.0
   .iconCircle-1dlYo0,
   .autocomplete-1vrmpx,
   .search-results-wrap,
-  .search-results-wrap .search-header {
+  .search-results-wrap .search-header,
+  .modal-3HD5ck,
+  .item-1Yvehc:hover {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -102,7 +104,8 @@ v1.0
   .popout-2xBvMR,
   .arrow-1QsYio,
   .container-3cGP6G,
-  .searchAnswer-3Dz2-q, .searchFilter-2ESiM3 {
+  .searchAnswer-3Dz2-q, .searchFilter-2ESiM3,
+  .contextMenu-HLZMGh {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -131,7 +134,8 @@ v1.0
   .description-2Ifi6N,
   .arrow-1QsYio,
   .item-2J1YMK,
-  .searchAnswer-3Dz2-q, .searchFilter-2ESiM3 {
+  .searchAnswer-3Dz2-q, .searchFilter-2ESiM3,
+  .item-1Yvehc {
     color: var(--black-text-color) !important;
   }
 
@@ -147,7 +151,9 @@ v1.0
 
   /* ACCENT COLOR */
   .announcingNitro-3Ptg6m,
-  .description-2Ifi6N strong, .username-2gp_Xw {
+  .description-2Ifi6N strong, .username-2gp_Xw,
+  .item-1Yvehc.danger-2dXSTE:hover,
+  .item-1Yvehc.danger-2dXSTE {
     color: var(--accent-color) !important;
   }
 
@@ -179,7 +185,10 @@ v1.0
 .tileMedia-1q3guD,
 .premium-39U29H,
 .container-3cGP6G,
-.selector-2IcQBU {
+.selector-2IcQBU,
+.modal-3HD5ck,
+.contextMenu-HLZMGh,
+.item-1Yvehc {
   border-radius: 12px !important;
 }
 
@@ -279,6 +288,10 @@ v1.0
 
 .searchFilter-2ESiM3 {
     border-radius: 12px 0 0 12px !important;
+}
+
+.modal-3HD5ck {
+    box-shadow: 0 0 0 1px #ff0046b5, 0 2px 10px 0 #ff0046b5 !important;
 }
 
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
