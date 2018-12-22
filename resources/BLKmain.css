@@ -166,7 +166,8 @@ v1.0
 }
 
 .quickMessage-1yeL4E,
-.status-2s6iDp {
+.status-2s6iDp,
+.member-3W1lQa.popout-open .content-OzHfo4 .status-2s6iDp, .member-3W1lQa.popout-open:hover .content-OzHfo4 .status-2s6iDp {
   border-color: var(--second-bg-color) !important;
 }
 
