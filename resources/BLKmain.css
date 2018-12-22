@@ -126,7 +126,7 @@ v1.0
 
 .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
 .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
-  border-color: var(--main-bg-color);
+  border-color: var(--main-bg-color) !important;
 }
 
 .container-1UB9sr {
