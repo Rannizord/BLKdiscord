@@ -46,7 +46,10 @@ v1.0
   .footer-1FPmkC,
   .inviteRow-2L02ae:hover,
   .header-1RC2Wb,
-  .news-2GDtLJ {
+  .news-2GDtLJ,
+  .cardPrimary-1Hv-to,
+  .cardPrimaryEditable-3KtE4g,
+  .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
     background-color: var(--main-bg-color) !important;
   }
 
@@ -93,7 +96,9 @@ v1.0
   .carousel-2WxMes,
   .card-7JP0BX,
   .headerButtonColor-G7_f-V,
-  .guildIconEmptyBackground-14tfYf {
+  .guildIconEmptyBackground-14tfYf,
+  .size-3rFEHg:after,
+  .size-3rFEHg:active:after {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -110,7 +115,9 @@ v1.0
   .iconBadge-2dji3k,
   .side-8zPYf6 .itemDefault-3Jdr52:hover, .side-8zPYf6 .itemHover-EnbcjT:hover,
   .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover,
-  .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+  .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover,
+  .themeDefault-24hCdX,
+  .mention-1f5kbO {
     background-color: var(--accent-color) !important;
   }
 
@@ -124,7 +131,9 @@ v1.0
   .contextMenu-HLZMGh,
   .sidebarRegion-VFTUkN,
   .dockItem-2kQDqg:hover,
-  .body-SKIE6r {
+  .body-SKIE6r,
+  .themeDefault-24hCdX.valueChecked-m-4IJZ,
+  .progress-1IcQ3A {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -183,7 +192,8 @@ v1.0
   .item-1Yvehc.danger-2dXSTE,
   .header-2RyJ0Y,
   .gameName-wzJptK,
-  .sectionTitle-1snBOS {
+  .sectionTitle-1snBOS,
+  .lookOutlined-3sRXeN.colorRed-1TFJan {
     color: var(--accent-color) !important;
   }
 
@@ -229,7 +239,11 @@ v1.0
 .article-3kb3qm,
 .exclusive-3zP8if,
 .card-7JP0BX,
-.news-2GDtLJ {
+.news-2GDtLJ,
+.card-3Qj_Yx,
+.item-26Dhrx,
+.box-mmYMsp,
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
   border-radius: 12px !important;
 }
 
@@ -245,7 +259,10 @@ v1.0
 
 .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
 .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb,
-.channel-2QD9_O.selected-1HYmZZ .status {
+.channel-2QD9_O.selected-1HYmZZ .status,
+.cardPrimary-1Hv-to,
+.cardPrimaryEditable-3KtE4g,
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
   border-color: var(--main-bg-color) !important;
 }
 
@@ -264,7 +281,8 @@ v1.0
 
 .wrapper-35wsBm,
 .input-cIJ7To,
-.distributionApplicationsActions-3D2_kD, .premiumApplicationsHeader-Zmkm5e {
+.distributionApplicationsActions-3D2_kD, .premiumApplicationsHeader-Zmkm5e,
+.lookOutlined-3sRXeN.colorRed-1TFJan {
   border-color: var(--accent-color) !important;
 }
 
@@ -335,8 +353,25 @@ v1.0
     box-shadow: 0 0 0 0 transparent, 0 2px 15px 2px #ff004633 !important;
 }
 
-.lookOutlined-3sRXeN.colorGreen-29iAKY{
+.lookOutlined-3sRXeN.colorGreen-29iAKY,
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover {
     border-color: var(--spotify-color) !important;
+}
+
+.checkbox-1ix_J3{
+    border-color: var(--white-bg-color) !important;
+}
+
+.cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+	background-color: var(--accent-color) !important;
+	border-color: var(--accent-color) !important;
+	border-radius: 12px !important;
+}
+
+.checked-3_4uQ9[style="border-color: rgb(114, 137, 218);"] polyline[stroke],
+.theme-dark .checkbox-1ix_J3[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] polyline[stroke] {
+     stroke: var(--white-bg-color);
+     stroke-width: 2;
 }
 
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
