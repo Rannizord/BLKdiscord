@@ -35,7 +35,8 @@ v1.0
   .body-3iLsc4, .footer-1fjuF6,
   .topSectionNormal-2-vo2m,
   #friends,
-  #friends .tab-bar .tab-bar-item:hover:not(.selected),{
+  #friends .tab-bar .tab-bar-item:hover:not(.selected),
+  .search-bar .search-bar-inner {
     background-color: var(--main-bg-color) !important;
   }
 
@@ -60,9 +61,9 @@ v1.0
   .container-2Thooq,
   .guildInner-3DSoA4,
   .headerBar-UHpsPw,
-  .search-bar .search-bar-inner,
   .theme-dark #friends .friends-table .friends-row:hover,
-  .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+  .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action,
+  .search-bar {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -73,7 +74,8 @@ v1.0
   .topSectionPlaying-1J5E4n,
   .guildInner-3DSoA4:hover,
   .layers-3iHuyZ,
-  #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+  #friends .tab-bar .tab-bar-item.tab-bar-item-primary,
+  .wrapper-232cHJ {
     background-color: var(--accent-color) !important;
   }
 
@@ -128,7 +130,8 @@ v1.0
 #friends .tab-bar .tab-bar-item,
 .search-bar .search-bar-inner,
 .channel-2QD9_O a,
-#friends .friends-table .friends-row:hover {
+#friends .friends-table .friends-row:hover,
+.wrapper-232cHJ {
   border-radius: 12px;
 }
 
