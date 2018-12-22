@@ -40,7 +40,8 @@ v1.0
   .lookFilled-1Gx00P.colorPrimary-3b3xI6,
   .libraryFilterInput-3JzqZD,
   .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL),
-  .input-cIJ7To {
+  .input-cIJ7To,
+  .applicationStore-1pNvnv {
     background-color: var(--main-bg-color) !important;
   }
 
@@ -70,7 +71,10 @@ v1.0
   .search-bar,
   .gameLibrary-TTDw4Y,
   .header-39GIC8,
-  .root-1BQpZw {
+  .root-1BQpZw,
+  .applicationTile-1Goy1W,
+  .applicationTile-1Goy1W:hover,
+  .iconCircle-1dlYo0 {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -89,7 +93,8 @@ v1.0
 
   /* WHITE */
   .menu-Sp6bN1,
-  .guild-1EfMGQ.unread-qLkInr:before {
+  .guild-1EfMGQ.unread-qLkInr:before,
+  .popout-2xBvMR {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -112,7 +117,9 @@ v1.0
   .lookInverted-2D7oAl.colorBrand-3pXr91,
   .alt-3btY0e .helper-2c73HK,
   #friends .tab-bar .tab-bar-item.selected,
-  .topPill-30KHOu .itemSelected-1qLhcL {
+  .topPill-30KHOu .itemSelected-1qLhcL,
+  .smallHeader-2h-9-U,
+  .text-1Z3P6i {
     color: var(--black-text-color) !important;
   }
 
@@ -120,8 +127,15 @@ v1.0
   .wrapper-2NJDcI,
   #friends .tab-bar .tab-bar-item,
   .lookFilled-1Gx00P.colorPrimary-3b3xI6,
-  .input-cIJ7To {
+  .input-cIJ7To,
+  .circle-1nK_79,
+  .purchaseUnitOperatingSystem-cnbJPz {
     color: var(--white-text-color) !important;
+  }
+
+  /* ACCENT COLOR */
+  .announcingNitro-3Ptg6m {
+    color: var(--accent-color) !important;
   }
 
 /* Individual changes */
@@ -146,7 +160,9 @@ v1.0
 .topPill-30KHOu .item-PXvHYJ,
 .libraryFilter-31ZUa2 .libraryFilterInput-3JzqZD,
 .topPill-30KHOu .item-PXvHYJ,
-.input-cIJ7To {
+.input-cIJ7To,
+.applicationTile-1Goy1W,
+.popout-2xBvMR {
   border-radius: 12px !important;
 }
 
@@ -179,7 +195,8 @@ v1.0
 }
 
 .wrapper-35wsBm,
-.input-cIJ7To {
+.input-cIJ7To,
+.distributionApplicationsActions-3D2_kD, .premiumApplicationsHeader-Zmkm5e {
   border-color: var(--accent-color) !important;
 }
 
@@ -233,4 +250,13 @@ v1.0
 
 .channel-2QD9_O:hover .status {
   border-color: var(--white-bg-color) !important;
+}
+
+/* STORE: PREMIER AT DISCORD SIGN */
+.tag-HanR-9 {
+  background: linear-gradient(90deg,var(--accent-color),var(--main-bg-color)) !important;
+}
+
+.tag-HanR-9:before {
+  background-image: none !important;
 }
