@@ -27,12 +27,12 @@ v1.0
   .messagesWrapper-3lZDfY,
   .guildsWrapper-5TJh6A,
   .inner-zqa7da,
-  .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
+  .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
   .wrapper-2NJDcI,
   .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active,
-  .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4,
+  .member-3W1lQa.popout-open .content-OzHfo4, .member-3W1lQa.popout-open:hover .content-OzHfo4,
   .search .search-bar,
-  .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
+  .body-3iLsc4, .footer-1fjuF6,
   .topSectionNormal-2-vo2m {
     background-color: var(--main-bg-color) !important;
   }
@@ -44,13 +44,13 @@ v1.0
   .title-3qD0b-,
   .chat-3bRxxu, .chat-3bRxxu form, .content-yTz4x3,
   .members-1998pB,
-  .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb,
+  .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb,
   .container-1UB9sr,
   .typing-2GQL18,
   .wrapper-35wsBm,
   .container-2x5lvQ header,
   .container-2x5lvQ section,
-  .theme-dark .headerNormal-T_seeN,
+  .headerNormal-T_seeN,
   .quickMessage-1yeL4E,
   .container-2lgZY8,
   .body-3ND3kc,
@@ -62,7 +62,8 @@ v1.0
   .unread-1xRYoj,
   .dnd-1_xrcq,
   .headerPlaying-j0WQBV,
-  .topSectionPlaying-1J5E4n {
+  .topSectionPlaying-1J5E4n,
+  .guildInner-3DSoA4 .da-guildInner {
     background-color: var(--accent-color) !important;
   }
 
@@ -115,7 +116,7 @@ v1.0
   border-radius: 12px;
 }
 
-.theme-dark .container-2Thooq, .theme-light .container-2Thooq {
+.container-2Thooq, .theme-light .container-2Thooq {
   background: none;
 }
 
@@ -123,8 +124,8 @@ v1.0
   background-color: #4f545c99;
 }
 
-.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
-.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
+.messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
+.messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
   border-color: var(--main-bg-color);
 }
 
@@ -177,6 +178,6 @@ v1.0
   margin-top: -15px;
 }
 
-.theme-dark .connectedAccount-36nQx7, .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx {
+.connectedAccount-36nQx7, .userInfoSection-2acyCx+.userInfoSection-2acyCx {
   border-color: var(--main-bg-color) !important;
 }
