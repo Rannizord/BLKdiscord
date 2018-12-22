@@ -203,7 +203,8 @@ v1.0
   }
 
   /* GREEN */
-  .lookOutlined-3sRXeN.colorGreen- {
+  .lookOutlined-3sRXeN.colorGreen-,
+  .lookOutlined-3sRXeN.colorGreen-29iAKY {
     color: var(--spotify-color) !important;
   }
 
