@@ -51,7 +51,9 @@ v1.0
   .cardPrimaryEditable-3KtE4g,
   .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
   .button-2b6hmh:hover,
-  .headerClickable-2IVFo9 {
+  .headerClickable-2IVFo9,
+  .bar-2Qqk5Z,
+  .select-2TCrqx .Select-control {
     background-color: var(--main-bg-color) !important;
   }
 
@@ -101,7 +103,9 @@ v1.0
   .guildIconEmptyBackground-14tfYf,
   .size-3rFEHg:after,
   .size-3rFEHg:active:after,
-  .attachPopoutRow-KrE-f6:hover {
+  .attachPopoutRow-KrE-f6:hover,
+  .embedInner-1-fpTo,
+  .citar-btn {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -119,8 +123,10 @@ v1.0
   .side-8zPYf6 .itemDefault-3Jdr52:hover, .side-8zPYf6 .itemHover-EnbcjT:hover,
   .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover,
   .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover,
-  .themeDefault-24hCdX,
-  .mention-1f5kbO {
+  .mention-1f5kbO,
+  .themeDefault-24hCdX.valueChecked-m-4IJZ,
+  .barFill-23-gu-,
+  .embedPill-1Zntps da-embedPill {
     background-color: var(--accent-color) !important;
   }
 
@@ -135,14 +141,15 @@ v1.0
   .sidebarRegion-VFTUkN,
   .dockItem-2kQDqg:hover,
   .body-SKIE6r,
-  .themeDefault-24hCdX.valueChecked-m-4IJZ,
   .progress-1IcQ3A,
+  .themeDefault-24hCdX,
   .attachPopout-1n-ZKM {
     background-color: var(--white-bg-color) !important;
   }
 
   /* YELLOW */
-  .idle-3DEnRT {
+  .idle-3DEnRT,
+  .barFill-23-gu- .da-barFill {
     background-color: var(--yellow-idle) !important;
   }
 
@@ -268,7 +275,11 @@ v1.0
 .wrapper-2NJDcI,
 .button-2KyEfG,
 .auditLog-3jNbM6,
-.bar-30k2ka {
+.bar-30k2ka,
+.bar-2Qqk5Z,
+.grabber-3mFHz2,
+.Select .Select-control,
+.citar-btn {
   border-radius: 12px !important;
 }
 
@@ -336,7 +347,8 @@ v1.0
 .quickMessage-1yeL4E,
 .status-2s6iDp,
 .member-3W1lQa.popout-open .content-OzHfo4 .status-2s6iDp, .member-3W1lQa.popout-open:hover .content-OzHfo4 .status-2s6iDp,
-.popoutSocialInfo-1qhqSY {
+.popoutSocialInfo-1qhqSY,
+.embedInner-1-fpTo {
   border-color: var(--second-bg-color) !important;
 }
 
@@ -354,7 +366,8 @@ v1.0
 }
 
 .search-bar .search-bar-inner,
-.libraryFilter-31ZUa2 .libraryFilterInput-3JzqZD {
+.libraryFilter-31ZUa2 .libraryFilterInput-3JzqZD,
+.select-2TCrqx .Select-control {
   border: 1px solid var(--main-bg-color) !important;
 }
 
@@ -416,6 +429,14 @@ v1.0
 .button-2b6hmh,
 .button-2KyEfG {
     opacity: .8 !important;
+}
+
+.grabber-3mFHz2 {
+    border: 1px solid var(--white-bg-color) !important;
+}
+
+.embedInner-1-fpTo {
+    border-radius: 0 12px 12px 0 !important;
 }
 
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
