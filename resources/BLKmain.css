@@ -50,7 +50,8 @@ v1.0
   .cardPrimary-1Hv-to,
   .cardPrimaryEditable-3KtE4g,
   .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
-  .button-2b6hmh:hover {
+  .button-2b6hmh:hover,
+  .headerClickable-2IVFo9 {
     background-color: var(--main-bg-color) !important;
   }
 
@@ -187,7 +188,8 @@ v1.0
   .card-7JP0BX,
   .item-1Yvehc:hover,
   .guildIconEmptyIcon-rSyLPf,
-  .attachPopoutRowText-1tIocA:hover {
+  .attachPopoutRowText-1tIocA:hover,
+  .headerClickable-2IVFo9 {
     color: var(--white-text-color) !important;
   }
 
@@ -199,15 +201,23 @@ v1.0
   .header-2RyJ0Y,
   .gameName-wzJptK,
   .sectionTitle-1snBOS,
-  .lookOutlined-3sRXeN.colorRed-1TFJan {
+  .lookOutlined-3sRXeN.colorRed-1TFJan,
+  .auditLog-3jNbM6 strong,
+  .typeDelete-bTXOuk {
     color: var(--accent-color) !important;
   }
 
   /* GREEN */
   .lookOutlined-3sRXeN.colorGreen-,
   .lookOutlined-3sRXeN.colorGreen-29iAKY,
-  .attachButtonPlay-ZnFdQr {
+  .attachButtonPlay-ZnFdQr,
+  .typeCreate-1kfBMl {
     color: var(--spotify-color) !important;
+  }
+
+  /* YELLOW */
+  .typeUpdate-2bwuHy {
+    color: var(--yellow-idle) !important;
   }
 
 /* Individual changes */
@@ -254,7 +264,10 @@ v1.0
 .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 .attachPopout-1n-ZKM,
 .attachPopoutRow-KrE-f6,
-.button-2b6hmh {
+.button-2b6hmh,
+.wrapper-2NJDcI,
+.button-2KyEfG,
+.auditLog-3jNbM6 {
   border-radius: 12px !important;
 }
 
@@ -273,7 +286,8 @@ v1.0
 .channel-2QD9_O.selected-1HYmZZ .status,
 .cardPrimary-1Hv-to,
 .cardPrimaryEditable-3KtE4g,
-.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+.auditLog-3jNbM6 {
   border-color: var(--main-bg-color) !important;
 }
 
@@ -398,7 +412,8 @@ v1.0
     border-radius: 0 0 12px 12px;
 }
 
-.button-2b6hmh {
+.button-2b6hmh,
+.button-2KyEfG {
     opacity: .8 !important;
 }
 
