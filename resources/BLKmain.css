@@ -49,7 +49,8 @@ v1.0
   .news-2GDtLJ,
   .cardPrimary-1Hv-to,
   .cardPrimaryEditable-3KtE4g,
-  .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+  .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+  .button-2b6hmh:hover {
     background-color: var(--main-bg-color) !important;
   }
 
@@ -252,7 +253,8 @@ v1.0
 .box-mmYMsp,
 .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 .attachPopout-1n-ZKM,
-.attachPopoutRow-KrE-f6 {
+.attachPopoutRow-KrE-f6,
+.button-2b6hmh {
   border-radius: 12px !important;
 }
 
@@ -263,7 +265,7 @@ v1.0
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM,
 .channel-2QD9_O.selected-1HYmZZ a,
 .selectorSelected-1_M1WV {
-  background-color: #4f545c99;
+  background-color: #4f545c99 !important;
 }
 
 .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
@@ -377,9 +379,9 @@ v1.0
 	border-radius: 12px !important;
 }
 
-.checked-3_4uQ9[style="border-color: rgb(114, 137, 218);"] polyline[stroke],
-.checkbox-1ix_J3[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] polyline[stroke] {
-     stroke: var(--white-bg-color) !important;
+/* NOT WORKING */ .checked-3_4uQ9/*[style="border-color: rgb(114, 137, 218);"]*/ polyline[stroke],
+.checkbox-1ix_J3/*[style="width: 24px height: 24px border-color: rgb(114, 137, 218);"]*/ polyline[stroke], {
+     stroke: var(--second-bg-color) !important;
      stroke-width: 2 !important;
 }
 
@@ -389,7 +391,15 @@ v1.0
 
 .attachButtonPlus-rUdX-B {
     fill: var(--white-bg-color) !important;
-    opacity: 80 !important;
+    opacity: .8 !important;
+}
+
+.innerAutocomplete-1PN280 {
+    border-radius: 0 0 12px 12px;
+}
+
+.button-2b6hmh {
+    opacity: .8 !important;
 }
 
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
