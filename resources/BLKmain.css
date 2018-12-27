@@ -126,7 +126,8 @@ v1.0
   .mention-1f5kbO,
   .themeDefault-24hCdX.valueChecked-m-4IJZ,
   .barFill-23-gu-,
-  .embedPill-1Zntps da-embedPill {
+  .embedPill-1Zntps da-embedPill,
+  #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover {
     background-color: var(--accent-color) !important;
   }
 
@@ -281,7 +282,8 @@ v1.0
 .grabber-3mFHz2,
 .Select .Select-control,
 .citar-btn,
-.wrapper-1cBijl {
+.wrapper-1cBijl,
+#friends .friends-table .friends-row .friends-column-actions .friends-action {
   border-radius: 12px !important;
 }
 
