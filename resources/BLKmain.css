@@ -105,7 +105,11 @@ v1.0
   .size-3rFEHg:active:after,
   .embedInner-1-fpTo,
   .citar-btn,
-  .item-1Yvehc.disabled-2xniQf:hover {
+  .item-1Yvehc.disabled-2xniQf:hover,
+  .header-ykumBX,
+  .messageGroupWrapper-o-Zw7G,
+  .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug,
+  .jumpButton-3DTcS_ {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -146,7 +150,8 @@ v1.0
   .progress-1IcQ3A,
   .themeDefault-24hCdX,
   .attachPopout-1n-ZKM,
-  .wrapper-1cBijl {
+  .wrapper-1cBijl,
+  .messagesPopoutWrap-1MQ1bW {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -183,7 +188,9 @@ v1.0
   .discriminator-pIKHPn, .playTime-1laRtO,
   .tag-10JqWu,
   .channelName-2rTyk5,
-  .attachPopoutRowText-1tIocA {
+  .attachPopoutRowText-1tIocA,
+  .jumpButton-3DTcS_,
+  .jumpButton-3DTcS_:hover {
     color: var(--black-text-color) !important;
   }
 
@@ -286,7 +293,10 @@ v1.0
 .wrapper-1cBijl,
 #friends .friends-table .friends-row .friends-column-actions .friends-action,
 .checkbox .checkbox-inner span,
-.attachPopoutRow-KrE-f6 {
+.attachPopoutRow-KrE-f6,
+.themedPopout-25DgLi,
+.messageGroupWrapper-o-Zw7G,
+.jumpButton-3DTcS_ {
   border-radius: 12px !important;
 }
 
@@ -358,7 +368,8 @@ v1.0
 .status-2s6iDp,
 .member-3W1lQa.popout-open .content-OzHfo4 .status-2s6iDp, .member-3W1lQa.popout-open:hover .content-OzHfo4 .status-2s6iDp,
 .popoutSocialInfo-1qhqSY,
-.embedInner-1-fpTo {
+.embedInner-1-fpTo,
+.messageGroupWrapper-o-Zw7G {
   border-color: var(--second-bg-color) !important;
 }
 
@@ -456,6 +467,18 @@ background: linear-gradient(-180deg,var(--second-bg-color),var(--main-bg-color) 
 
 .theme-dark .item-1Yvehc.disabled-2xniQf:hover {
     background: black !important;
+}
+
+.messagesPopoutWrap-1MQ1bW {
+    border: 1px solid var(--second-bg-color) !important;
+}
+
+.themedPopout-25DgLi .header-SsaQ8X {
+    border-radius: 0 !important;
+}
+
+.messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+  box-shadow: none !important;
 }
 
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
