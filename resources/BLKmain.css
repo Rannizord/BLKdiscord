@@ -105,7 +105,8 @@ v1.0
   .size-3rFEHg:active:after,
   .attachPopoutRow-KrE-f6:hover,
   .embedInner-1-fpTo,
-  .citar-btn {
+  .citar-btn,
+  .item-1Yvehc.disabled-2xniQf:hover {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -127,7 +128,8 @@ v1.0
   .themeDefault-24hCdX.valueChecked-m-4IJZ,
   .barFill-23-gu-,
   .embedPill-1Zntps da-embedPill,
-  #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover {
+  #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover,
+  .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     background-color: var(--accent-color) !important;
   }
 
@@ -283,7 +285,8 @@ v1.0
 .Select .Select-control,
 .citar-btn,
 .wrapper-1cBijl,
-#friends .friends-table .friends-row .friends-column-actions .friends-action {
+#friends .friends-table .friends-row .friends-column-actions .friends-action,
+.checkbox .checkbox-inner span {
   border-radius: 12px !important;
 }
 
@@ -323,7 +326,9 @@ v1.0
 .wrapper-35wsBm,
 .input-cIJ7To,
 .distributionApplicationsActions-3D2_kD, .premiumApplicationsHeader-Zmkm5e,
-.lookOutlined-3sRXeN.colorRed-1TFJan {
+.lookOutlined-3sRXeN.colorRed-1TFJan,
+.checkbox .checkbox-inner span,
+.checkbox .checkbox-inner input[type=checkbox]:checked+span  {
   border-color: var(--accent-color) !important;
 }
 
