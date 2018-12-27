@@ -108,8 +108,7 @@ v1.0
   .item-1Yvehc.disabled-2xniQf:hover,
   .header-ykumBX,
   .messageGroupWrapper-o-Zw7G,
-  .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug,
-  .jumpButton-3DTcS_ {
+  .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug, {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -151,7 +150,8 @@ v1.0
   .themeDefault-24hCdX,
   .attachPopout-1n-ZKM,
   .wrapper-1cBijl,
-  .messagesPopoutWrap-1MQ1bW {
+  .messagesPopoutWrap-1MQ1bW,
+  .jumpButton-3DTcS_ {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -189,8 +189,7 @@ v1.0
   .tag-10JqWu,
   .channelName-2rTyk5,
   .attachPopoutRowText-1tIocA,
-  .jumpButton-3DTcS_,
-  .jumpButton-3DTcS_:hover {
+  .jumpButton-3DTcS_, {
     color: var(--black-text-color) !important;
   }
 
@@ -219,7 +218,8 @@ v1.0
   .sectionTitle-1snBOS,
   .lookOutlined-3sRXeN.colorRed-1TFJan,
   .auditLog-3jNbM6 strong,
-  .typeDelete-bTXOuk {
+  .typeDelete-bTXOuk,
+  .jumpButton-3DTcS_:hover {
     color: var(--accent-color) !important;
   }
 
