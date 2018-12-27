@@ -223,7 +223,8 @@ v1.0
   .lookOutlined-3sRXeN.colorGreen-29iAKY,
   .attachButtonPlay-ZnFdQr,
   .typeCreate-1kfBMl,
-  .item-1Yvehc.brand-3igrJY {
+  .item-1Yvehc.brand-3igrJY,
+  .item-1Yvehc.brand-3igrJY:hover {
     color: var(--spotify-color) !important;
   }
 
