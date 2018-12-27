@@ -143,7 +143,8 @@ v1.0
   .body-SKIE6r,
   .progress-1IcQ3A,
   .themeDefault-24hCdX,
-  .attachPopout-1n-ZKM {
+  .attachPopout-1n-ZKM,
+  .wrapper-1cBijl {
     background-color: var(--white-bg-color) !important;
   }
 
@@ -279,7 +280,8 @@ v1.0
 .bar-2Qqk5Z,
 .grabber-3mFHz2,
 .Select .Select-control,
-.citar-btn {
+.citar-btn,
+.wrapper-1cBijl {
   border-radius: 12px !important;
 }
 
@@ -375,7 +377,8 @@ v1.0
   border: 2px solid var(--white-bg-color) !important;
 }
 
-.channel-2QD9_O:hover .status {
+.channel-2QD9_O:hover .status,
+.wrapper-1cBijl {
   border-color: var(--white-bg-color) !important;
 }
 
@@ -437,6 +440,10 @@ v1.0
 
 .embedInner-1-fpTo {
     border-radius: 0 12px 12px 0 !important;
+}
+
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
+background: linear-gradient(-180deg,var(--second-bg-color),var(--main-bg-color) !important);
 }
 
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
