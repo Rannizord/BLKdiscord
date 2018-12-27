@@ -455,7 +455,7 @@ background: linear-gradient(-180deg,var(--second-bg-color),var(--main-bg-color) 
 }
 
 .theme-dark .item-1Yvehc.disabled-2xniQf:hover {
-    background: var(--second-bg-color) !important;
+    background: black !important;
 }
 
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
