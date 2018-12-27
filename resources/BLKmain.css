@@ -481,6 +481,11 @@ background: linear-gradient(-180deg,var(--second-bg-color),var(--main-bg-color) 
   box-shadow: none !important;
 }
 
+.jumpToPresentBar-9P20AM,
+.jumpToPresentBar-9P20AM:hover {
+    background-color: #000000d4 !important;
+}
+
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
 .tag-HanR-9,
 .premium-39U29H {
