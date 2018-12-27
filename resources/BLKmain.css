@@ -138,7 +138,8 @@ v1.0
   .embedPill-1Zntps da-embedPill,
   #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover,
   .checkbox .checkbox-inner input[type=checkbox]:checked+span,
-  .lookFilled-1Gx00P.colorRed-1TFJan {
+  .lookFilled-1Gx00P.colorRed-1TFJan,
+  .callAvatar-v-u4BM.voice-2D-tt_ .callAvatarStatus-3y6S04 {
     background-color: var(--accent-color) !important;
   }
 
