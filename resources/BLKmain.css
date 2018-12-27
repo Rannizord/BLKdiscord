@@ -222,7 +222,8 @@ v1.0
   .lookOutlined-3sRXeN.colorGreen-,
   .lookOutlined-3sRXeN.colorGreen-29iAKY,
   .attachButtonPlay-ZnFdQr,
-  .typeCreate-1kfBMl {
+  .typeCreate-1kfBMl,
+  .item-1Yvehc.brand-3igrJY {
     color: var(--spotify-color) !important;
   }
 
@@ -451,6 +452,10 @@ v1.0
 
 #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
 background: linear-gradient(-180deg,var(--second-bg-color),var(--main-bg-color) !important);
+}
+
+.theme-dark .item-1Yvehc.disabled-2xniQf:hover {
+    background: var(--second-bg-color) !important;
 }
 
 /* STORE: PREMIER AT DISCORD SIGN & OTHER DISCORD STORE THINGS (but not all)*/
