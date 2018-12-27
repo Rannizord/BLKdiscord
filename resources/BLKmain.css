@@ -285,7 +285,8 @@ v1.0
 .citar-btn,
 .wrapper-1cBijl,
 #friends .friends-table .friends-row .friends-column-actions .friends-action,
-.checkbox .checkbox-inner span {
+.checkbox .checkbox-inner span,
+.attachPopoutRow-KrE-f6 {
   border-radius: 12px !important;
 }
 
