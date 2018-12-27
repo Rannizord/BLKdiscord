@@ -103,7 +103,6 @@ v1.0
   .guildIconEmptyBackground-14tfYf,
   .size-3rFEHg:after,
   .size-3rFEHg:active:after,
-  .attachPopoutRow-KrE-f6:hover,
   .embedInner-1-fpTo,
   .citar-btn,
   .item-1Yvehc.disabled-2xniQf:hover {
@@ -199,7 +198,6 @@ v1.0
   .card-7JP0BX,
   .item-1Yvehc:hover,
   .guildIconEmptyIcon-rSyLPf,
-  .attachPopoutRowText-1tIocA:hover,
   .headerClickable-2IVFo9 {
     color: var(--white-text-color) !important;
   }
@@ -276,7 +274,6 @@ v1.0
 .box-mmYMsp,
 .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 .attachPopout-1n-ZKM,
-.attachPopoutRow-KrE-f6,
 .button-2b6hmh,
 .wrapper-2NJDcI,
 .button-2KyEfG,
@@ -316,7 +313,8 @@ v1.0
   border-bottom: 1px solid var(--main-bg-color);
 }
 
-.item-1GzJrl:hover {
+.item-1GzJrl:hover,
+.attachPopoutRow-KrE-f6:hover, {
   background: linear-gradient(90deg,rgb(220, 220, 220) 70%,#ffffff) !important;
 }
 
