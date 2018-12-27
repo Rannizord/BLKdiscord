@@ -108,7 +108,11 @@ v1.0
   .item-1Yvehc.disabled-2xniQf:hover,
   .header-ykumBX,
   .messageGroupWrapper-o-Zw7G,
-  .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+  .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug,
+  .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,
+  .messageGroupBlocked-3wrQQX,
+  .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover,
+  .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
     background-color: var(--second-bg-color) !important;
   }
 
@@ -204,7 +208,8 @@ v1.0
   .card-7JP0BX,
   .item-1Yvehc:hover,
   .guildIconEmptyIcon-rSyLPf,
-  .headerClickable-2IVFo9 {
+  .headerClickable-2IVFo9,
+  .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
     color: var(--white-text-color) !important;
   }
 
@@ -296,7 +301,8 @@ v1.0
 .attachPopoutRow-KrE-f6,
 .themedPopout-25DgLi,
 .messageGroupWrapper-o-Zw7G,
-.jumpButton-3DTcS_ {
+.jumpButton-3DTcS_,
+.messageGroupBlocked-3wrQQX {
   border-radius: 12px !important;
 }
 
@@ -369,7 +375,9 @@ v1.0
 .member-3W1lQa.popout-open .content-OzHfo4 .status-2s6iDp, .member-3W1lQa.popout-open:hover .content-OzHfo4 .status-2s6iDp,
 .popoutSocialInfo-1qhqSY,
 .embedInner-1-fpTo,
-.messageGroupWrapper-o-Zw7G {
+.messageGroupWrapper-o-Zw7G,
+.messageGroupBlocked-3wrQQX,
+.messageGroupBlocked-3wrQQX.revealed-1_RKsf {
   border-color: var(--second-bg-color) !important;
 }
 
